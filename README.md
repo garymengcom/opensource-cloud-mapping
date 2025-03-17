@@ -130,3 +130,17 @@ A comprehensive mapping of open-source software to cloud-managed services across
 | **Time-Series Databases**   | [InfluxDB](https://www.influxdata.com/), [TimescaleDB](https://www.timescale.com/) | [Amazon Timestream](https://aws.amazon.com/timestream/)       | [Azure Time Series Insights](https://azure.microsoft.com/en-us/products/time-series-insights/) | [Google Cloud Bigtable](https://cloud.google.com/bigtable) |
 
 
+
+## AI Services
+
+| Service                          | Open Source                                                       | AWS                                                             | Azure                                                         | GCP                                                         |
+|----------------------------------|------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------------------------------------|-------------------------------------------------------------|
+| **Machine Learning Platforms**   | [TensorFlow](https://www.tensorflow.org/), [PyTorch](https://pytorch.org/), [Keras](https://keras.io/) | [SageMaker](https://aws.amazon.com/sagemaker/)                 | [Azure Machine Learning](https://azure.microsoft.com/en-us/products/machine-learning/) | [Vertex AI](https://cloud.google.com/vertex-ai) |
+| **AutoML**                       | [AutoGluon](https://auto.gluon.ai/), [H2O.ai](https://www.h2o.ai/) | [SageMaker Autopilot](https://aws.amazon.com/sagemaker/autopilot/) | [Azure AutoML](https://azure.microsoft.com/en-us/products/machine-learning/automl/) | [Vertex AI AutoML](https://cloud.google.com/vertex-ai/docs/automl) |
+| **AI APIs (Vision, NLP, Speech)** | [OpenCV](https://opencv.org/), [spaCy](https://spacy.io/), [Kaldi](http://kaldi-asr.org/) | [Rekognition](https://aws.amazon.com/rekognition/), [Polly](https://aws.amazon.com/polly/) | [Azure Cognitive Services](https://azure.microsoft.com/en-us/products/cognitive-services/) | [Cloud AI APIs](https://cloud.google.com/products/ai) |
+| **Conversational AI (Chatbots)** | [Rasa](https://rasa.com/), [BotPress](https://botpress.com/)    | [Lex](https://aws.amazon.com/lex/)                            | [Azure Bot Service](https://azure.microsoft.com/en-us/products/bot-services/) | [Dialogflow](https://cloud.google.com/dialogflow) |
+| **AI-Powered Search**            | [Elasticsearch](https://www.elastic.co/), [Vespa](https://vespa.ai/) | [Kendra](https://aws.amazon.com/kendra/)                        | [Azure AI Search](https://azure.microsoft.com/en-us/products/search/) | [Vertex AI Search](https://cloud.google.com/vertex-ai-search) |
+| **AI Code Assistants**           | [Code Llama](https://ai.meta.com/research/publications/code-llama/), [StarCoder](https://huggingface.co/bigcode/starcoder) | [CodeWhisperer](https://aws.amazon.com/codewhisperer/)          | [Copilot (via GitHub)](https://github.com/features/copilot) | [Vertex AI Codey](https://cloud.google.com/vertex-ai/docs/generative-ai/code) |
+| **AI Infrastructure (GPUs, TPUs)** | [JAX](https://jax.readthedocs.io/), [RAPIDS](https://rapids.ai/) | [AWS Inferentia](https://aws.amazon.com/machine-learning/inferentia/) | [Azure AI Infrastructure](https://azure.microsoft.com/en-us/products/machine-learning/infrastructure/) | [Cloud TPU](https://cloud.google.com/tpu) |
+
+
