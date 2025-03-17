@@ -1,6 +1,22 @@
 # opensource-cloud-mapping
 A comprehensive mapping of open-source software to cloud-managed services across AWS, Azure, and GCP.
 
+
+## Container Orchestration
+
+| Service                    | Open Source                                                   | AWS                                                          | Azure                                                         | GCP                                                        |
+|----------------------------|-------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------------------|
+| **Container Orchestration** | [Kubernetes](https://kubernetes.io/), [k3s](https://k3s.io/) | [Amazon EKS](https://aws.amazon.com/eks/)                   | [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/products/kubernetes-service/) | [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine/) |
+| **Container Runtime**       | [containerd](https://containerd.io/), [CRI-O](https://cri-o.io/) | [AWS Bottlerocket](https://aws.amazon.com/bottlerocket/)     | [Azure Container Instances](https://azure.microsoft.com/en-us/products/container-instances/) | [GKE Autopilot](https://cloud.google.com/kubernetes-engine/docs/concepts/autopilot-overview) |
+| **Container Registry**      | [Harbor](https://goharbor.io/), [Docker Registry](https://docs.docker.com/registry/) | [Amazon Elastic Container Registry (ECR)](https://aws.amazon.com/ecr/) | [Azure Container Registry (ACR)](https://azure.microsoft.com/en-us/products/container-registry/) | [Google Artifact Registry](https://cloud.google.com/artifact-registry/) |
+| **Serverless Containers**   | [Knative](https://knative.dev/), [OpenFaaS](https://www.openfaas.com/) | [AWS Fargate](https://aws.amazon.com/fargate/)               | [Azure Container Apps](https://azure.microsoft.com/en-us/products/container-apps/) | [Cloud Run](https://cloud.google.com/run/) |
+| **Service Discovery**       | [Consul](https://www.consul.io/), [CoreDNS](https://coredns.io/) | [AWS Cloud Map](https://aws.amazon.com/cloud-map/)           | [Azure DNS Private Resolver](https://learn.microsoft.com/en-us/azure/dns/private-resolver-overview) | [Cloud DNS](https://cloud.google.com/dns/) |
+| **Container Networking (CNI)** | [Cilium](https://cilium.io/), [Calico](https://www.tigera.io/project-calico/) | [AWS VPC CNI](https://docs.aws.amazon.com/eks/latest/userguide/pod-networking.html) | [Azure CNI](https://learn.microsoft.com/en-us/azure/aks/concepts-network) | [GKE Native CNI](https://cloud.google.com/kubernetes-engine/docs/concepts/cni-advanced-networking) |
+| **Container Security**      | [Trivy](https://aquasecurity.github.io/trivy/), [Anchore](https://anchore.com/) | [Amazon Inspector](https://aws.amazon.com/inspector/)       | [Microsoft Defender for Containers](https://azure.microsoft.com/en-us/products/defender-for-cloud/) | [GCP Security Command Center](https://cloud.google.com/security-command-center/) |
+| **Container Observability** | [Prometheus](https://prometheus.io/), [Grafana](https://grafana.com/) | [Amazon Managed Prometheus](https://aws.amazon.com/prometheus/) | [Azure Monitor for Containers](https://learn.microsoft.com/en-us/azure/azure-monitor/containers/) | [Google Cloud Operations Suite](https://cloud.google.com/products/operations) |
+
+
+
 ## Data Storage
 
 | Service             | Open Source                                                              | AWS                                              | Azure                                                        | GCP                                          |
