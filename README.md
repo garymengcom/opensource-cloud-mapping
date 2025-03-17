@@ -52,6 +52,21 @@ A comprehensive mapping of open-source software to cloud-managed services across
 | **Private Connectivity** | [Tinc](https://www.tinc-vpn.org/), [ZeroTier](https://www.zerotier.com/) | [AWS Direct Connect](https://aws.amazon.com/directconnect/) | [Azure ExpressRoute](https://azure.microsoft.com/en-us/products/expressroute/) | [Cloud Interconnect](https://cloud.google.com/network-connectivity/docs/interconnect/) |
 
 
+## CI/CD (Continuous Integration / Continuous Deployment)
+
+| Service                 | Open Source                                                           | AWS                                                        | Azure                                                   | GCP                                                          |
+|-------------------------|---------------------------------------------------------------------|------------------------------------------------------------|--------------------------------------------------------|--------------------------------------------------------------|
+| **CI/CD Pipelines**     | [Jenkins](https://www.jenkins.io/), [Tekton](https://tekton.dev/) | [AWS CodePipeline](https://aws.amazon.com/codepipeline/)   | [Azure DevOps Pipelines](https://azure.microsoft.com/en-us/products/devops/pipelines/) | [Cloud Build](https://cloud.google.com/cloud-build) |
+| **CI/CD Automation**    | [GitLab CI/CD](https://docs.gitlab.com/ee/ci/), [ArgoCD](https://argo-cd.readthedocs.io/en/stable/) | [AWS CodeBuild](https://aws.amazon.com/codebuild/) | [Azure DevOps Pipelines](https://azure.microsoft.com/en-us/products/devops/pipelines/) | [Cloud Build](https://cloud.google.com/cloud-build) |
+| **Git Repositories**    | [Gitea](https://gitea.io/), [GitLab](https://about.gitlab.com/)   | [AWS CodeCommit](https://aws.amazon.com/codecommit/)      | [Azure Repos](https://azure.microsoft.com/en-us/products/devops/repos/) | [Cloud Source Repositories](https://cloud.google.com/source-repositories) |
+| **Artifact Management** | [JFrog Artifactory](https://jfrog.com/artifactory/), [Nexus](https://www.sonatype.com/products/nexus-repository) | [AWS CodeArtifact](https://aws.amazon.com/codeartifact/) | [Azure Artifacts](https://azure.microsoft.com/en-us/products/devops/artifacts/) | [Artifact Registry](https://cloud.google.com/artifact-registry) |
+| **Configuration Management** | [Ansible](https://www.ansible.com/), [Puppet](https://puppet.com/) | [AWS Systems Manager](https://aws.amazon.com/systems-manager/) | [Azure Automation](https://azure.microsoft.com/en-us/products/automation/) | [Cloud Deployment Manager](https://cloud.google.com/deployment-manager) |
+| **Infrastructure as Code** | [Terraform](https://www.terraform.io/), [Pulumi](https://www.pulumi.com/) | [AWS CloudFormation](https://aws.amazon.com/cloudformation/) | [Azure Resource Manager](https://learn.microsoft.com/en-us/azure/azure-resource-manager/) | [Google Cloud Deployment Manager](https://cloud.google.com/deployment-manager) |
+| **Secrets Management**  | [Vault](https://www.vaultproject.io/), [Sealed Secrets](https://github.com/bitnami-labs/sealed-secrets) | [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/) | [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) | [Secret Manager](https://cloud.google.com/secret-manager) |
+| **Policy as Code**      | [Open Policy Agent (OPA)](https://www.openpolicyagent.org/)      | [AWS IAM Policies](https://aws.amazon.com/iam/)           | [Azure Policy](https://azure.microsoft.com/en-us/products/governance/) | [Google Cloud IAM Policies](https://cloud.google.com/iam/docs/policies) |
+| **Progressive Delivery** | [Flagger](https://flagger.app/), [Argo Rollouts](https://argoproj.github.io/argo-rollouts/) | [AWS AppConfig](https://aws.amazon.com/appconfig/) | [Azure Feature Flags](https://learn.microsoft.com/en-us/azure/azure-app-configuration/feature-management-overview) | [Google Cloud Feature Flags](https://cloud.google.com/feature-flagging/) |
+
+
 
 ## Monitoring
 
