@@ -20,5 +20,15 @@ A comprehensive mapping of open-source software to cloud-managed services across
 | **Presto-based Query Engine** | [Presto](https://prestodb.io/), [Trino](https://trino.io/) | [Amazon Athena](https://aws.amazon.com/athena/) | [Azure Data Explorer](https://azure.microsoft.com/en-us/products/data-explorer/) | [BigQuery](https://cloud.google.com/bigquery/) |
 
 
+## Monitoring
+
+| Service            | Open Source                                                        | AWS                                               | Azure                                                   | GCP                                         |
+|--------------------|------------------------------------------------------------------|---------------------------------------------------|---------------------------------------------------------|---------------------------------------------|
+| **Metrics Monitoring** | [Prometheus](https://prometheus.io/), [VictoriaMetrics](https://victoriametrics.com/) | [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) | [Azure Monitor](https://azure.microsoft.com/en-us/products/monitor/) | [Cloud Monitoring](https://cloud.google.com/monitoring/) |
+| **Log Management** | [ELK Stack (Elasticsearch, Logstash, Kibana)](https://www.elastic.co/), [Fluentd](https://www.fluentd.org/), [Loki](https://grafana.com/oss/loki/) | [Amazon OpenSearch](https://aws.amazon.com/opensearch-service/) | [Azure Monitor Logs](https://learn.microsoft.com/en-us/azure/azure-monitor/logs/logs-data-platform) | [Cloud Logging](https://cloud.google.com/logging/) |
+| **Distributed Tracing** | [Jaeger](https://www.jaegertracing.io/), [Zipkin](https://zipkin.io/) | [AWS X-Ray](https://aws.amazon.com/xray/) | [Azure Application Insights](https://azure.microsoft.com/en-us/products/monitor/) | [Cloud Trace](https://cloud.google.com/trace/) |
+| **APM (Application Performance Monitoring)** | [OpenTelemetry](https://opentelemetry.io/), [Pyroscope](https://pyroscope.io/) | [AWS X-Ray](https://aws.amazon.com/xray/) | [Azure Monitor Application Insights](https://azure.microsoft.com/en-us/products/monitor/) | [Cloud Trace + Profiler](https://cloud.google.com/profiler) |
+| **Infrastructure Monitoring** | [Zabbix](https://www.zabbix.com/), [Nagios](https://www.nagios.org/) | [Amazon CloudWatch](https://aws.amazon.com/cloudwatch/) | [Azure Monitor](https://azure.microsoft.com/en-us/products/monitor/) | [Cloud Monitoring](https://cloud.google.com/monitoring/) |
+| **Event Monitoring & Alerting** | [Grafana](https://grafana.com/), [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/) | [Amazon Managed Grafana](https://aws.amazon.com/grafana/) | [Azure Monitor Alerts](https://learn.microsoft.com/en-us/azure/azure-monitor/alerts/alerts-overview) | [Cloud Monitoring Alerting](https://cloud.google.com/monitoring/alerts/) |
 
 
