@@ -20,6 +20,23 @@ A comprehensive mapping of open-source software to cloud-managed services across
 | **Presto-based Query Engine** | [Presto](https://prestodb.io/), [Trino](https://trino.io/) | [Amazon Athena](https://aws.amazon.com/athena/) | [Azure Data Explorer](https://azure.microsoft.com/en-us/products/data-explorer/) | [BigQuery](https://cloud.google.com/bigquery/) |
 
 
+## Networking
+
+| Service               | Open Source                                                             | AWS                                                  | Azure                                                       | GCP                                                 |
+|----------------------|-----------------------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------------|-----------------------------------------------------|
+| **Load Balancing**   | [HAProxy](http://www.haproxy.org/), [NGINX](https://nginx.org/)      | [Elastic Load Balancing (ELB)](https://aws.amazon.com/elasticloadbalancing/) | [Azure Load Balancer](https://azure.microsoft.com/en-us/products/load-balancer/) | [Cloud Load Balancing](https://cloud.google.com/load-balancing/) |
+| **Reverse Proxy**    | [Traefik](https://traefik.io/), [Caddy](https://caddyserver.com/)   | [AWS ALB](https://aws.amazon.com/elasticloadbalancing/) | [Azure Application Gateway](https://azure.microsoft.com/en-us/products/application-gateway/) | [Cloud Load Balancer](https://cloud.google.com/load-balancing/) |
+| **API Gateway**      | [Kong](https://konghq.com/), [Tyk](https://tyk.io/)                 | [Amazon API Gateway](https://aws.amazon.com/api-gateway/) | [Azure API Management](https://azure.microsoft.com/en-us/products/api-management/) | [Cloud Endpoints](https://cloud.google.com/endpoints/) |
+| **Service Mesh**     | [Istio](https://istio.io/), [Linkerd](https://linkerd.io/)          | [AWS App Mesh](https://aws.amazon.com/app-mesh/) | [Azure Service Mesh](https://azure.microsoft.com/en-us/blog/announcing-the-public-preview-of-azure-service-mesh/) | [Anthos Service Mesh](https://cloud.google.com/anthos/service-mesh) |
+| **DNS Management**   | [CoreDNS](https://coredns.io/), [Bind9](https://www.isc.org/bind/)  | [Amazon Route 53](https://aws.amazon.com/route53/)  | [Azure DNS](https://azure.microsoft.com/en-us/products/dns/) | [Cloud DNS](https://cloud.google.com/dns/) |
+| **Networking Overlay** | [Calico](https://www.tigera.io/project-calico/), [Cilium](https://cilium.io/) | [AWS VPC Networking](https://aws.amazon.com/vpc/) | [Azure Virtual Network](https://azure.microsoft.com/en-us/products/virtual-network/) | [VPC Networking](https://cloud.google.com/vpc/) |
+| **Web Application Firewall (WAF)** | [ModSecurity](https://owasp.org/www-project-modsecurity-core-rule-set/) | [AWS WAF](https://aws.amazon.com/waf/) | [Azure Web Application Firewall](https://azure.microsoft.com/en-us/services/web-application-firewall/) | [Cloud Armor](https://cloud.google.com/armor/) |
+| **DDoS Protection**  | [FastNetMon](https://fastnetmon.com/), [CrowdSec](https://www.crowdsec.net/) | [AWS Shield](https://aws.amazon.com/shield/) | [Azure DDoS Protection](https://azure.microsoft.com/en-us/products/ddos-protection/) | [Cloud Armor](https://cloud.google.com/armor/) |
+| **VPN & Secure Networking** | [WireGuard](https://www.wireguard.com/), [OpenVPN](https://openvpn.net/) | [AWS Client VPN](https://aws.amazon.com/vpn/) | [Azure VPN Gateway](https://azure.microsoft.com/en-us/products/vpn-gateway/) | [Cloud VPN](https://cloud.google.com/network-connectivity/docs/vpn/) |
+| **Private Connectivity** | [Tinc](https://www.tinc-vpn.org/), [ZeroTier](https://www.zerotier.com/) | [AWS Direct Connect](https://aws.amazon.com/directconnect/) | [Azure ExpressRoute](https://azure.microsoft.com/en-us/products/expressroute/) | [Cloud Interconnect](https://cloud.google.com/network-connectivity/docs/interconnect/) |
+
+
+
 ## Monitoring
 
 | Service            | Open Source                                                        | AWS                                               | Azure                                                   | GCP                                         |
