@@ -2,6 +2,20 @@
 A comprehensive mapping of open-source software to cloud-managed services across AWS, Azure, and GCP.
 
 
+## Computations
+
+| Service                      | Open Source                                                      | AWS                                                              | Azure                                                           | GCP                                                         |
+|------------------------------|----------------------------------------------------------------|------------------------------------------------------------------|----------------------------------------------------------------|-------------------------------------------------------------|
+| **Virtual Machines (VMs)**   | [Proxmox](https://www.proxmox.com/), [KVM](https://www.linux-kvm.org/), [Xen](https://xenproject.org/) | [EC2](https://aws.amazon.com/ec2/)                              | [Azure Virtual Machines](https://azure.microsoft.com/en-us/products/virtual-machines/) | [Compute Engine](https://cloud.google.com/compute) |
+| **Containerized Computing**  | [Docker](https://www.docker.com/), [Podman](https://podman.io/) | [AWS Fargate](https://aws.amazon.com/fargate/)                  | [Azure Container Instances](https://azure.microsoft.com/en-us/products/container-instances/) | [Cloud Run](https://cloud.google.com/run) |
+| **Serverless Computing (FaaS)** | [OpenFaaS](https://www.openfaas.com/), [Knative](https://knative.dev/) | [AWS Lambda](https://aws.amazon.com/lambda/)                   | [Azure Functions](https://azure.microsoft.com/en-us/products/functions/) | [Cloud Functions](https://cloud.google.com/functions) |
+| **Batch Processing**         | [Apache Airflow](https://airflow.apache.org/), [Luigi](https://luigi.readthedocs.io/) | [AWS Batch](https://aws.amazon.com/batch/)                      | [Azure Batch](https://azure.microsoft.com/en-us/products/batch/) | [Cloud Batch](https://cloud.google.com/batch) |
+| **GPU & AI Compute**         | [RAPIDS](https://rapids.ai/), [TensorFlow](https://www.tensorflow.org/) | [AWS GPU Instances](https://aws.amazon.com/ec2/instance-types/gpu/) | [Azure GPU VMs](https://azure.microsoft.com/en-us/products/virtual-machines/sizes-gpu/) | [GCP GPU Instances](https://cloud.google.com/gpu) |
+| **High-Performance Computing (HPC)** | [Slurm](https://slurm.schedmd.com/), [PBS Pro](https://pbspro.org/) | [AWS ParallelCluster](https://aws.amazon.com/hpc/)              | [Azure HPC](https://azure.microsoft.com/en-us/solutions/high-performance-computing/) | [Google Cloud HPC](https://cloud.google.com/hpc/) |
+| **Edge Computing**           | [LF Edge](https://www.lfedge.org/), [KubeEdge](https://kubeedge.io/) | [AWS IoT Greengrass](https://aws.amazon.com/greengrass/)       | [Azure IoT Edge](https://azure.microsoft.com/en-us/products/iot-edge/) | [Google Distributed Cloud Edge](https://cloud.google.com/distributed-cloud/edge) |
+
+
+
 ## Container Orchestration
 
 | Service                    | Open Source                                                   | AWS                                                          | Azure                                                         | GCP                                                        |
